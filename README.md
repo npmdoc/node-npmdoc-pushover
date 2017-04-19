@@ -1,9 +1,14 @@
-# api documentation for  [pushover (v1.3.6)](https://github.com/substack/pushover)  [![npm package](https://img.shields.io/npm/v/npmdoc-pushover.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pushover) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pushover.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pushover)
+# npmdoc-pushover
+
+#### api documentation for  [pushover (v1.3.6)](https://github.com/substack/pushover)  [![npm package](https://img.shields.io/npm/v/npmdoc-pushover.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pushover) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pushover.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pushover)
+
 #### git push deploy server over http
 
-[![NPM](https://nodei.co/npm/pushover.png?downloads=true)](https://www.npmjs.com/package/pushover)
+[![NPM](https://nodei.co/npm/pushover.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/pushover)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-pushover/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-pushover_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-pushover/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-pushover/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-pushover/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-pushover/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-pushover/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-pushover/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "James Halliday",
-        "email": "mail@substack.net",
         "url": "http://substack.net"
     },
     "bugs": {
@@ -56,13 +60,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "substack",
-            "email": "mail@substack.net"
+            "name": "substack"
         }
     ],
     "name": "pushover",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/substack/pushover.git"
@@ -73,16 +75,6 @@
     "version": "1.3.6"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module pushover](#apidoc.module.pushover)
-
-
-
-# <a name="apidoc.module.pushover"></a>[module pushover](#apidoc.module.pushover)
 
 
 
