@@ -61,12 +61,41 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.pushover">module pushover</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pushover.pushover">
+            function <span class="apidocSignatureSpan"></span>pushover
+            <span class="apidocSignatureSpan">(repoDir, opts)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.pushover" id="apidoc.module.pushover">module pushover</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.pushover.pushover" id="apidoc.element.pushover.pushover">
+        function <span class="apidocSignatureSpan"></span>pushover
+        <span class="apidocSignatureSpan">(repoDir, opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">pushover = function (repoDir, opts) {
+    if (!opts) opts = {};
+    var dirMap = typeof repoDir === &#x27;function&#x27;
+        ? repoDir
+        : function (dir) { return path.join(repoDir, dir) }
+    ;
+    return new Git(dirMap, opts);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
